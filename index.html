@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>The Black Zero</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">The Black Zero</div>
+        <label for="" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul id="menuList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Services</a>
+                <div class="sub-menu">
+                    <uL>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </uL>
+                </div>
+            </li>
+
+            <li><a href="#">About</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+        <img src="images/menu.jpg" class="menu-icon"
+        onclick="togglemenu()">
+    </nav>
+    <!---------------------menu-butto-------->
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight =="0px")
+            {
+                menuList.style.maxHeight = "450px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+            
+        }
+    </script>
+
+    <div class="mainDiv">
+        <h1>The Black Zero</h1>
+        <p>I Am A Youtuber And A Blogger</p>
+        <a href="https://www.youtube.com/channel/UCwTjYNJtAvH6yIy48ZmIZdQ">
+            <button>Subscribe my Channel</button>
+        </a>
+
+    <div class="btn">
+      <a href="http://theblackzeronews.blogspot.com/?m=1">
+        <button class="button button1"> My Blog</button>
+      </a>  
+      <a href="https://www.youtube.com/c/Theblackzero/featured">
+        <button class="button button2">My Vlog</button>
+      </a>  
+    </div>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#fff"
+            fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,80C384,107,480,181,576,229.3C672,
+            277,768,299,864,256C960,213,1056,107,1152,64C1248,21,1344,43,1392,53.3L1440,64L1440,320L1392,
+            320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,
+            288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+         
+        </div>    
+    </div>
+
+    <!----------------------Services-------------->
+
+    <div class="container">
+        <div class="details">
+          <h2>Services</h2>
+          <p>Services Provided By This Channel The Black Zero.</p>
+        </div>
+        <div class="main-box">
+          <div class="box box-grey">
+            <div class="icon">
+              <img src="images/edu.jpg" width="100" height="90">
+            </div>
+            <h2>Education Tutorials</h2>
+            <hr>
+            <p>We are providing best usefull tutorials for students</p>
+            <a href="https://www.youtube.com/watch?v=5bmG43y92NE&list=PLU1gAwEWuR89SM6asdmlNw3MJ0vX40hTR&index=20">Watch Video</a>
+          </div>
+  
+          <div class="box box-red">
+            <div class="icon">
+              <img src="images/news.png" width="100" width="100">
+            </div>
+            <h2>News Portal</h2>
+            <hr>
+            <p>We are providing best news content all over world</p>
+            <a href="https://www.youtube.com/watch?v=4LPTo7tVnkA&list=PLU1gAwEWuR8_BHoiKDdsg-eVP-42KBCDY" class="white-border">Watch video</a>
+          </div>
+
+          <div class="box box-green">
+            <div class="icon">
+              <img src="images/poet.jpg" width="100" height="100">
+            </div>
+            <h2>Poetry</h2>
+            <hr>
+            <p>Poetry of the Day.Urdu and Hindi poetry here</p>
+            <a href="https://www.youtube.com/watch?v=5RRe3yJ-3ps&list=PLU1gAwEWuR8-plVxeOgHLuFGs7-9RVeo2" class="white-border">Watch Now</a>
+          </div>
+          
+          <div class="box box-grey">
+            <div class="icon">
+              <img src="images/mental.jpg" width="100" height="100">
+            </div>
+            <h2>Mental Ability</h2>
+            <hr>
+            <p>the ability to understand the facts and significance of your behavior. capacity. ability, power .</p>
+            <a href="https://www.youtube.com/watch?v=5-cmFZgbvD0&list=PLU1gAwEWuR89EaLa5VDx8HAUeyT8ZdtiL">Watch Now</a>
+          </div>
+  
+        </div>
+  
+      </div>
+
+      <!------------------------------Why black zero-------------->
+      <section id="feature">
+        <div class="title-text">
+            <p>The Black Zero</p>
+            <h1>Why Choose Us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Educational Content</h1>
+                <div class="features-desc">
+                  <div class="feature-icon">
+                    <i class="fa fa-shield"></i>
+                  </div>
+                  <div class="feature-text">
+                    <p>Content knowledge generally refers to the facts, concepts, theories,
+                    and principles that are taught and learned in specific academic courses.</p>
+                  </div>
+                </div>
+    
+                <h1>Political Content</h1>
+                <div class="features-desc">
+                  <div class="feature-icon">
+                    <i class="fa fa-check-square-o"></i>
+                  </div>
+                  <div class="feature-text">
+                    <p>We provided political content as political party, elected or appointed government official, election,
+                     referendum, ballot measure, legislation, regulation, directive, or judicial outcome.. </p>
+                  </div>
+                </div>
+    
+                <h1>International Vlogs</h1>
+                <div class="features-desc">
+                  <div class="feature-icon">
+                    <i class="fa fa-inr"></i>
+                  </div>
+                  <div class="feature-text">
+                    <p> one of the most consumed video content on the internet. Travel vloggers pack their bags,
+                     bring out their cameras, and document and film their adventures.</p>
+                  </div>
+                </div>
+    
+            </div>
+            <div class="features-img">
+              <img src="images/black.jpg">
+            </div>
+        </div>
+    </section>
+
+<!---------------Video gallery---------------->
+
+<div class="vid">
+  <h1>Video Gallery</h1>
+  <iframe width="360" height="315" src="https://www.youtube.com/embed/5N8KI8gutug?start=4"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+   picture-in-picture" allowfullscreen></iframe>
+
+  <iframe width="360" height="315" src="https://www.youtube.com/embed/z_OjI6DbVtQ?start=4"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+  <iframe width="360" height="315" src="https://www.youtube.com/embed/5RRe3yJ-3ps?start=4" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+   <iframe width="360" height="315" src="https://www.youtube.com/embed/4LPTo7tVnkA?start=4"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+      
+
+
+
+<!---------------------------footer-------------->
+
+<div class="footer-container">
+  <div class="footer">
+    <div class="footer-heading footer-1">
+      <h2>About Us</h2>
+      <a href="#">Blog</a> 
+      <a href="#">Demo</a> 
+      <a href="#">Customers</a> 
+      <a href="#">Terms of Services</a> 
+    </div>
+
+    <div class="footer-heading footer-2">
+      <h2>Contact Us</h2>
+      <a href="#">Content Writing</a> 
+      <a href="#">Support</a> 
+      <a href="#">Contact</a> 
+      <a href="#">Sponsorships</a> 
+    </div>
+
+    <div class="footer-heading footer-3">
+      <h2>Social Media</h2>
+      <a href="https://www.instagram.com/shamsbhai_/">Instagram</a> 
+      <a href="https://www.facebook.com/101452464690020/posts/103369891164944/?sfnsn=scwspmo&extid=FDpwRGqKh6py9pty">Facebook</a> 
+      <a href="https://www.youtube.com/c/Theblackzero/about">Youtube</a> 
+      <a href="https://twitter.com/shamsbhai2?s=09">Twitter</a> 
+    </div>
+    <div class="footer-email-form">
+      <h2>Join my Channel</h2>
+      <input type="email" placeholder="Enter your email address" id="footer-email">
+      <input type="submit" value="Sign Up"
+      id="footer-email-btn">
+      <h1>Copyright @abu 2021 All Rights Reserved</h1>
+      <p>E-mail- abuasky@gmail.com</p>
+    </div>
+
+  </div>
+</div>
+   
+    
+</body>
+</html>
